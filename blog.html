@@ -11,7 +11,7 @@
     <section class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <h2
-          class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+          class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-red-500"
         >
           Programming-Hero Question Answers
         </h2>
@@ -23,7 +23,8 @@
               <h3
                 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
               >
-               1. What is the difference between map, filter, forEach and find ?
+                1. What is the difference between map, filter, forEach and find
+                ?
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
                 map(), executes the same code on every element in an array and
@@ -44,8 +45,8 @@
               <h3
                 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
               >
-               2. What is the difference between localStorage, sessionStorage and
-                cookies ?
+                2. What is the difference between localStorage, sessionStorage
+                and cookies ?
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
                 Local Storage is a network storage method that helps us store
@@ -62,11 +63,15 @@
               <h3
                 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
               >
-               3. How does the Event loop thing work?
+                3. How does the Event loop thing work?
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
-                The event
-                loop is the secret behind JavaScript's asynchronous programming.JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. And the event loop is what allows javascript to handle thousands and thousands of requests with just a single thread.
+                The event loop is the secret behind JavaScript's asynchronous
+                programming.JS executes all operations on a single thread, but
+                using a few smart data structures, it gives us the illusion of
+                multi-threading. And the event loop is what allows javascript to
+                handle thousands and thousands of requests with just a single
+                thread.
               </p>
             </div>
 
@@ -74,10 +79,25 @@
               <h3
                 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
               >
-              4.  How does the quizTimer (noChange.js) function work?
+                4. How does the quizTimer (noChange.js) function work?
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
-                The quizTimer function displays the timer update of the HTML page using the global variable called 'timer'. The formatted count is then displayed on the page using the innerHTML property of an HTML element with an ID of 'count'. If the count reaches 60 seconds, the The color of the count text toggles between two shades of red every second. And this function is designed to provide a simple way to display a timer on an HTML page and customize its appearance.
+                The quizTimer function displays the timer update of the HTML
+                page using the global variable called 'timer'. The clearInterval
+                method is used to stop the countdown by passing the timer
+                variable, which holds the ID of the interval returned by the
+                setInterval method and return statement is used to exit the
+                quizTimer function. The modulo operator %. The result is
+                assigned to a variable named mod. The formatted count is then
+                displayed on the page using the innerHTML property of an HTML
+                element with an ID of 'count'. If the count reaches 60 seconds,
+                the The color of the count text toggles between two shades of
+                red every second. <br />
+                The setInterval method is used to execute this block of code
+                repeatedly every 1000 milliseconds (or every 1 second) until the
+                interval is stopped or the web page is unloaded. And this
+                function is designed to provide a simple way to display a timer
+                on an HTML page and customize its appearance.
               </p>
             </div>
           </div>
@@ -86,16 +106,26 @@
               <h3
                 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
               >
-              5.  How does the chooseQuiz (noChange.js) function work?
+                5. How does the chooseQuiz (noChange.js) function work?
               </h3>
               <p class="text-gray-500 dark:text-gray-400">
-                The free updates that will be provided is based on the that we
-                have laid out for this project. It is also possible that we will
-                provide extra updates outside of the road as well.It is also
-                possible that we will provide extra updates outside of the road
-                as well.It is also possible that we will provide extra updates
-                outside of the road as well.It is also possible that we will
-                provide extra updates outside of the road as well.
+                This code defines a JavaScript function called chooseQuiz that
+                takes two arguments: index and givenAns. <br />
+                First declares a variable serial and initializes it to 0. <br />
+                Inside the for loop checks whether the quiz question answers
+                array already exists by using the find method to search for an
+                element with a matching ID. If it is, the function updates the
+                answer to that question with the new Ans value. <br />
+                If it doesn't exist, a new QuizAnswer object is added to the
+                Answers array with the Ans value. The new quiz object is created
+                using the spread syntax to copy all properties of the
+                quizData[index] object, and the givenAns value is added as a new
+                property.
+                <br />
+                It uses a for...of loop and the splice method to find and update
+                the answer object. <br />
+                'push' method to add the new object to the array, and then calls
+                the displayAnswers function to update the display.
               </p>
             </div>
           </div>
