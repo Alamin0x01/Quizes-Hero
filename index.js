@@ -134,7 +134,7 @@ document.querySelector("#submit").addEventListener("click", () => {
     );
   }
 
-  // Right side bar/ answer section
+  // Right side bar / answer section
   let x = setTimeout(() => {
     showAnswers(answers);
     displayResult.innerHTML = `<div
