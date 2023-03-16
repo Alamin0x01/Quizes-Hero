@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog-QnA</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
+  </head>
+  <body>
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-            <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Programming-Hero Question Answers</h2>
-            <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
-                <div>
-                    <div class="mb-10">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                            What is the difference between map, filter, forEach and find ?
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-400">
-                            map(), executes the same code on every element in an array and returns a new array with the updated elements. <br>filter(), checks every element in an array to see if it meets a certain criteria and returns a new array with the elements that return truthy for the criteria. <br>
-                            forEach(), is used to execute the same code on every element in an array but does not change the array and it returns undefined. <br>And find(), returns the element itself that satisfies the condition.
-                        </p>
-                    </div>
-                    <div class="mb-10">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                            What is the difference between localStorage, sessionStorage and cookies ?
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-400">
-                            Local Storage is a network storage method that helps us store data on the client computer in the form of key/value pairs in the web browser.<br>sessionStorage - It is very similar to Local Storage. The main difference, though, is the lifecycle it persists in the browser until its current tab is opened.<br>And cookies - its data is exchanged with the server on every request. Servers can use Cookie data to send personalized content to users.
-                        </p>
-                    </div>
-                    <div class="mb-10">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                            How does the Evan loop thing work?
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-400">
-                            JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.
-                        </p>
-                    </div>
-                
-                    <div class="mb-10">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                            How does the (noChange.js) quizTimer function work?
-                           
-                            
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-400">it's a personal website, a SaaS app, or a website for a client. As long as you don't build a product that will fine.
-                    </div>
-                </div>
-                <div>
-                    <div class="mb-10">
-                        <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
-                            How does the (noChange.js) chooseQuiz function work?
-                        </h3>
-                        <p class="text-gray-500 dark:text-gray-400">The free updates that will be provided is based on the that we have laid out for this project. It is also possible that we will provide extra updates outside of the road as well.It is also possible that we will provide extra updates outside of the road as well.It is also possible that we will provide extra updates outside of the road as well.It is also possible that we will provide extra updates outside of the road as well.</p>
-                    </div>
-                  
-                </div>
+      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <h2
+          class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"
+        >
+          Programming-Hero Question Answers
+        </h2>
+        <div
+          class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2"
+        >
+          <div>
+            <div class="mb-10">
+              <h3
+                class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
+              >
+                What is the difference between map, filter, forEach and find ?
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                map(), executes the same code on every element in an array and
+                returns a new array with the updated elements. <br />filter(),
+                checks every element in an array to see if it meets a certain
+                criteria and returns a new array with the elements that return
+                truthy for the criteria. <br />
+                forEach(), is used to execute the same code on every element in
+                an array but does not change the array and it returns undefined.
+                <br />And The find() method allows you to check for the presence
+                of a certain value in an array, in cases when you do not know
+                its index. At the same time, it accepts various conditions for
+                search criteria, which makes it possible to use it, including
+                with complex functions.
+              </p>
             </div>
+            <div class="mb-10">
+              <h3
+                class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
+              >
+                What is the difference between localStorage, sessionStorage and
+                cookies ?
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                Local Storage is a network storage method that helps us store
+                data on the client computer in the form of key/value pairs in
+                the web browser.<br />sessionStorage - It is very similar to
+                Local Storage. The main difference, though, is the lifecycle it
+                persists in the browser until its current tab is opened.<br />And
+                cookies - its data is exchanged with the server on every
+                request. Servers can use Cookie data to send personalized
+                content to users.
+              </p>
+            </div>
+            <div class="mb-10">
+              <h3
+                class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
+              >
+                How does the Event loop thing work?
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                The event
+                loop is the secret behind JavaScript's asynchronous programming.JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. And the event loop is what allows javascript to handle thousands and thousands of requests with just a single thread.
+              </p>
+            </div>
+
+            <div class="mb-10">
+              <h3
+                class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
+              >
+                How does the (noChange.js) quizTimer function work?
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                it's a personal website, a SaaS app, or a website for a client.
+                As long as you don't build a product that will fine.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="mb-10">
+              <h3
+                class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white"
+              >
+                How does the (noChange.js) chooseQuiz function work?
+              </h3>
+              <p class="text-gray-500 dark:text-gray-400">
+                The free updates that will be provided is based on the that we
+                have laid out for this project. It is also possible that we will
+                provide extra updates outside of the road as well.It is also
+                possible that we will provide extra updates outside of the road
+                as well.It is also possible that we will provide extra updates
+                outside of the road as well.It is also possible that we will
+                provide extra updates outside of the road as well.
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
-</body>
+      </div>
+    </section>
+  </body>
 </html>
